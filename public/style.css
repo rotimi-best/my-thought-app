@@ -1,0 +1,127 @@
+* {
+  font-family: 'Roboto', sans-serif;
+}
+#root {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+input.edit-thought {
+  font-weight: 400;
+  font-style: normal;
+  border: 0;
+  width: 50%;
+/*   border-bottom: 1px solid; */
+  background-color: #e8e8e8;
+  padding: 10px 5px;
+  margin-bottom: 10px;
+}
+
+input.create-thought {
+  width: 60%;
+  margin-top: 10px;
+  padding: 20px;
+}
+
+.thoughts {
+  max-height: 70vh;
+  overflow-y: scroll;
+  border: 1px solid #e8e8e8;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.thought-container {
+  border: 1px solid #e8e8e8;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  padding: 10px 10px 10px 10px;
+}
+
+.thought {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-around;
+  margin: 15px 0;
+}
+
+.thought-value, input {
+  width: 50%;
+  text-align: left;
+}
+
+.thought-value {
+  font-weight: 400;
+  font-style: normal;
+}
+
+.thought-value .last-edited {
+  margin: 7px 0;
+  font-size: 13px;
+  font-style: italic;
+  color: #908787;
+}
+
+.reaction {
+  color: #c3c3c3;
+  display: flex;
+  align-items: center;
+  width: 90%;
+  justify-content: space-around;
+  margin: 5px auto;
+}
+
+.reaction i {
+/*   border: 1px solid  */
+  padding: 2px;
+  display: flex;
+  align-items: center;
+  width: 40%;
+  border-radius: 5px;
+  border: 1px solid #3f3fa2;
+  margin: 5px auto;
+  justify-content: space-around;
+}
+
+.reaction i.selected {
+  background-color: #3f3fa2;
+  color: white;
+}
+
+.reaction i.favorite-selected {
+  background-color: #d23b3b;
+  border: 1px solid #d23b3b;
+  color: white;
+}
+
+.reaction .icon {
+  color: black;
+  padding: 5px;
+  margin: 0px;
+}
+
+.icon {
+  margin-left: 20px;
+  color: white;
+  border-radius: 50px;
+  padding: 5px;
+}
+
+.icon:hover {
+  cursor: pointer;
+}
+
+.edit-icon {
+  background-color: blue;
+}
+
+.delete-icon {
+  background-color: red;
+}
+
+.footer {
+  font-style: italic;
+  margin: 20px;
+}

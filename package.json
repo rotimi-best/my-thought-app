@@ -1,0 +1,27 @@
+{
+  "name": "my-thought-app.github.io",
+  "version": "1.0.0",
+  "description": "Record your thoughts in real time",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rotimi-best/my-thought-app.github.io.git"
+  },
+  "keywords": [
+    "react",
+    "express"
+  ],
+  "author": "rotimi-best",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rotimi-best/my-thought-app.github.io/issues"
+  },
+  "homepage": "https://github.com/rotimi-best/my-thought-app.github.io#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
